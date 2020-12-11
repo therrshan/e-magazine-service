@@ -12,19 +12,19 @@ Once Python is installed and in the system path, open 3 terminal sessions and go
 Load the server:
 
 ```Bash
-$ python init.py server <host> <port>
+$ python3 init.py server <host> <port>
 ```
 
 Load the publisher:
 
 ```Bash
-$ python init.py publisher <server host> <server port>
+$ python3 init.py publisher <server host> <server port>
 ```
 
 Load the subscriber:
 
 ```Bash
-$ python init.py subscriber <server host> <server port>
+$ python3 init.py subscriber <server host> <server port>
 ```
 
 The server needs a port and a host to expose the API. The clients need the host and the port used by the server.
